@@ -1,0 +1,62 @@
+/* Required for full background image */
+html,
+body,
+header,
+
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse ,.page-footer{
+  background-color: #09090a  !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #563e91 !important;
+  }
+}
+
+
+.streak.streak-photo {
+  background-attachment: fixed;
+}
+
+.rgba-black {
+  background: rgba(35, 7, 77, 0.6);  /* fallback for old browsers */
+  background: -webkit-linear-gradient( #000000, #434343);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#000000, #434343);
+}
+.rgba-gery {
+  background: rgba(35, 7, 77, 0.6);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#434343,#bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#434343,#bdc3c7);
+}
+.rgba-white {
+  background: rgba(35, 7, 77, 0.6);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#bdc3c7,#fff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#bdc3c7,#fff);
+}
+
+.s1{
+  position: absolute;
+  display: none;
+  }
+  .rgba-ccc {
+    background: rgba(35, 7, 77, 0.6);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left,  #0F2027, #2C5364);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( left, #0F2027, #2C5364);
+  }
